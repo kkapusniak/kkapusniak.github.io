@@ -16,7 +16,4 @@ The results of this work are available in the [preprint on arXiv](https://arxiv.
 
 I hold an **MSc in Data Science** from **ETH Zürich** and a BEng in Electrical Engineering from UCL.
 
----
-
-📬 **Contact**  
-kacper.kapusniak@cs.ox.ac.uk
+📬 **Contact**  kacper.kapusniak@cs.ox.ac.uk
