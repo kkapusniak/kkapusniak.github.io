@@ -43,24 +43,24 @@
 ;
 .pub-item {
   display: flex;
-  align-items: flex-start;
+  flex-wrap: wrap;
   gap: 16px;
+  align-items: center;        /* was flex-start */
   margin-bottom: 1.25rem;
-  flex-wrap: wrap; /* allows stacking on small screens */
 }
 
 .pub-thumb {
-  flex: 0 0 160px; /* fixed thumbnail width */
+  flex: 0 0 160px;
   max-width: 160px;
   border-radius: 8px;
+  display: block;             /* removes inline image baseline gap */
 }
 
-.pub-body {
-  flex: 1 1 300px; /* grows to fill remaining space */
-  min-width: 260px; /* prevents overly narrow text columns */
+.pub-body h3 {
+  margin: 0 0 .3rem 0;        /* kill top margin */
+  line-height: 1.25;
 }
 
-/* Tighter on small screens */
-@media (max-width: 600px) {
-  .pub-thumb { max-width: 140px; flex-basis: 140px; }
+.pub-body p {
+  margin: .25rem 0 0 0;       /* small, consistent spacing */
 }
