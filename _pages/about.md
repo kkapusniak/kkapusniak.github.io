@@ -1,9 +1,10 @@
 ---
-layout: about
-title: About Me
-permalink: /about/
-profile:
-  align: right
+permalink: /
+title: "About Me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 Hi, I’m **Kacper Kapuśniak**, a 2nd-year PhD student in **Machine Learning** at the **University of Oxford**, in [Prof. Michael Bronstein’s group](https://www.cs.ox.ac.uk/people/michael.bronstein/).
