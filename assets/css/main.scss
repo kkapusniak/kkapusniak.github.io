@@ -41,3 +41,26 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+.pub-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap; /* allows stacking on small screens */
+}
+
+.pub-thumb {
+  flex: 0 0 160px; /* fixed thumbnail width */
+  max-width: 160px;
+  border-radius: 8px;
+}
+
+.pub-body {
+  flex: 1 1 300px; /* grows to fill remaining space */
+  min-width: 260px; /* prevents overly narrow text columns */
+}
+
+/* Tighter on small screens */
+@media (max-width: 600px) {
+  .pub-thumb { max-width: 140px; flex-basis: 140px; }
+}
